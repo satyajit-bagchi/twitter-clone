@@ -1,0 +1,13 @@
+CREATE DATABASE twitter;
+USE twitter;
+CREATE TABLE Tweets(
+	id INT NOT NULL AUTO_INCREMENT,
+	body TEXT NOT NULL,
+	handle VARCHAR(15) NOT NULL,
+	created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`) 
+);
+
+INSERT INTO Tweets(handle, body) VALUES('MmmChese', 'Learning to make web apps');
+SELECT * FROM Tweets;
+INSERT INTO Tweets(handle,body) VALUES('MmmCheeseFan', 'You''re so awesome!') 
