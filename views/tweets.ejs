@@ -13,6 +13,9 @@
 				<textarea id="tweet-form-body" name="body" placeholder="What's happening?"></textarea>
 				<button id="tweet-form-button">Tweet</button>
 			</form>
+			<% for(var i=0;i<tweets.length;i++){%>
+				<%- include('_tweet', {tweet: tweets[i]}); %>
+			<% } %>
 		</main>	
 	</body>
 </html>

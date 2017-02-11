@@ -59,6 +59,25 @@ body {
   background-color: #e8f4fb;
 }
 
+.tweet {
+  padding: 10px 12px;
+  border-top: 1px solid #e1e8ed;
+}
+
+.light-grey{
+  color: #8899a6;
+}
+
+#tweet-form-delete-button {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 7px 8px;
+  background-color: #e53334;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
